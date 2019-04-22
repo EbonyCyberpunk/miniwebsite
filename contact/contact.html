@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>CSS: Mini-Website Syntra</title>
+
+
+        <!-- external css -->
+
+        <link href="../css/opmaak.css" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <div class="container">
+            <header>
+                <section id="mainheader">
+                    <a href="#" title="header"><img src="../images/bg-header.jpg" alt="header website" id="img_header"></a>
+                </section>
+                <section id="sideheader">
+                    <a href="#" title="logo" id="logoheader"><img src="../images/syntra-logo.png" alt="logo website" id="img_header_logo"></a>
+                </section>
+            </header>
+
+            <!-- Hoofd navigatie -->
+            <nav id="main_nav">
+                <ul>
+                    <li><a href="../index.html" title="home">Home</a></li>
+                    <li><a href="../opleidingen/opleidingen.html" title="opleiding">Opleidingen</a></li>
+                    <li><a href="../campussen/campussen.html" title="campussen">Campussen</a></li>
+                    <li><a href="contact.html" title="contact">Contact</a></li>
+                    <li><a href="../faq/faq.html" title="faq">FAQ</a></li>
+                </ul>
+            </nav>
+
+            <!-- HOOFD ARTICLES ---->
+            <section id="contentcontainer">
+
+                <!-- Main -->
+                <main class="main">
+                    <section class="contactSectionTop">
+                        <h1>Vragen? Ons klantencenter helpt je verder</h1>
+                        <button type="button" class="buttonPhone"onclick="javascript:window.location.href='#';">078 15 99 99</button>
+                        <button type="button" class="buttonEmail"onclick="javascript:window.location.href='#';">klantencentrum@syntra-ab.be</button>
+                        <button type="button" class="buttonChat"onclick="javascript:window.location.href='#';">Chat live</button>
+                        <h2>* Openingsuren klantencentrum</h2>
+                        <ul>
+                            <li><span> Van maandag tot en met donderdag van 8u30 tot 19u30</span></li>
+                            <li><span> Vrijdag van 8u30 tot 17u</span></li>
+                            <li><span> Zaterdag van 8u30 tot 12u30 (enkel in juni en september)</span></li>
+                            <li><span> Van 1 juli tot en met vrijdag 10 juli en van 1 augustus tot en met vrijdag 19 augustus: van 8u30 tot 17u (ipv 19u30)</span></li>
+                        </ul>
+                    </section>
+                    <hr>
+                    <section class="contactSectionMiddle">
+                        <ul>
+                            <li class="oblique bold"><span>Syntra-AB (centrale zetel)</span></li>
+                            <li class="oblique">Borsbeeksebrug 32</li>
+                            <li class="oblique">2600 Berchem</li>
+                            <li class="oblique">Tel:<span class="highlight"> 078 15 99 99</span></li>
+                            <li class="oblique">Fax: 03 286 77 41</li>
+                            <li class="oblique">Email:<span class="highlight"> klantencentrum@syntra-ab.be</span></li>
+                        </ul>
+                    </section>
+
+                </main>
+
+                <!-- Banner -->
+                <aside>
+                    <img src="../images/opleiding-in-de-kijker.jpg" alt="banner foto" class="banner">
+                    <section class="sidesection">
+                        <h2>Opleidingen in de kijker</h2>
+                        <article id="sidearticle">
+                            <p>De flexibele, modulaire trajecten van Syntra AB bestaan uit minstens 3 opleidigen die je makkelijk kan combineren en van jou een echte pro maken in jouw vakgebied. Maak je keuze uit Adobe Spark, Copywriting, HR-Basics, Internationale handel, Magazijnbeheer, Massagebijscholingen en Sketchup Pro.</p>
+                        </article>
+                        <button type="button" class="buttonBanner"onclick="javascript:window.location.href='#';">Bekijk alle opleidingen</button>
+                    </section>
+                </aside>
+
+                <!-- Clearfix -->
+                <div class="floatfix"></div>
+
+            </section>
+            <!-- Google map  -->
+
+            <section class="contactSectionEnd">
+                <div id="map"></div>
+
+
+            </section>
+
+            <footer>
+                <p>&copy; Copyright 2002-2019 Syntra Antwerpen en Vlaams-Brabant vzw</p>
+            </footer>
+
+        </div>
+        
+        <!-- scripts -->
+        <script src="../javascript/contact.js"></script>
+        <script>initMap();</script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAFOY6oGFvEn9tV3ZusOLU7wauvJ7Zn7xI&callback=initMap"></script>
+        
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

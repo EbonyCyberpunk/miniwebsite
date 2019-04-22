@@ -1,0 +1,381 @@
+/* CSS bij Mini-Website Syntra */
+
+@import "https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css";
+
+html{
+    height: 100%;
+}
+
+body{
+    
+    font:normal 100%/1.4 Tahoma, Times, sans-serif;
+    background: rgb(91, 94, 99);
+    height: 100%;
+}
+
+p {
+    font-size: 13px;
+}
+
+/* fix voor float */
+.floatfix{
+    overflow: hidden;
+    clear:both;
+    zoom: 1;
+    _overflow: visible;
+}
+
+/* paddingfix */
+
+* { box-sizing: border-box;}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    min-height: 100%;
+    background: rgb(238,238,238);
+    
+}
+
+/* HEADER ----------------------------------------*/
+
+#mainheader{
+    height: 265px;
+    background: white;
+}
+
+#mainheader img{
+    height: 100%;
+    width: 100%;
+}
+
+#sideheader{
+    position: absolute;
+    top: 75px;
+    margin-left: 45px
+    
+}
+
+
+
+/* NAVIGATIE -------------------------------------*/
+
+nav#main_nav {
+    height: 50px;
+    background-color: rgb(49, 50, 54);
+}
+
+nav#main_nav a {
+    display: block;
+    float: left;
+    padding: 0 2em;
+    line-height: 50px;
+    color: #CCC;
+    text-decoration: none;
+}
+
+/* MAIN -----------------------------------------*/
+
+#contentcontainer{
+    height: 100%;
+    min-height: 100%;
+
+}
+
+main {
+    background: white;
+    float: left;
+    width: 70%;
+    min-height: 600px;
+    
+}
+
+.bottomsection{
+    column-count: 2;
+    margin: 30px;
+}
+
+.topsection { 
+    margin: 30px
+    
+}
+
+
+
+aside  {
+    float:left;   
+    width: 30%;
+    
+    
+}
+
+
+aside img {
+    display: block;
+    margin: 0 auto;
+    padding: 2em 0;
+    width: 220px;
+    height: auto;
+    
+    
+}
+
+.sidesection{
+    width: 220px;
+    margin: 0 auto;
+}
+
+
+
+h1 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem
+}
+
+.buttonBanner{
+    padding: 1em;
+    background: rgb(162,40,34);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1em;
+}
+
+.bold {
+    font-weight: bold;
+    
+}
+
+.highlight{
+    color: rgb(162,40,34);
+    font-weight: bold;
+    
+}
+
+.oblique{
+    font-style:italic;
+}
+
+hr{
+    margin: 30px;
+    border: 1px solid rgb(238,238,238);
+}
+
+/* OPLEIDINGEN HTML ----------------------------------------------------- */
+
+
+.opleidingArtikel1{
+
+    margin: 30px;
+ 
+}
+
+.opleidingArtikel2{
+
+    padding-top: 1em;
+    padding-left: 2em;
+}
+
+.opleidinglijst li {
+    list-style-type: circle;
+    margin-left: 3em;
+    font-size: 13px;
+}
+
+.opleidingArtikel3{
+    padding-top: 1em;
+    padding-left: 2em;
+    
+}
+
+.buttonOpleiding{
+    margin-top: 2em;
+    margin-bottom: 5em;
+    padding: 1em;
+    background: rgb(162,40,34);
+    color: white;
+    border: none;
+    border-radius: 5px;
+   
+}
+
+
+/* CONTACT -----------------------------------------*/
+
+#map {
+    width: 100%;
+    height: 300px;
+    
+    
+}
+
+.contactSectionTop{
+    margin: 30px;
+}
+
+.contactSectionTop h1{
+    
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding-left: 1em;
+    margin-bottom: 0rem;
+}
+
+.contactSectionTop h2{
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-left: 1em;
+}
+
+
+.contactSectionTop button {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 1em;
+    background: rgb(162,40,34);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.buttonPhone {
+    margin-left: 2em;
+}
+
+
+.contactSectionTop ul li::before {
+    content:"\2022"; 
+    color: gray;
+    display: inline-block;
+    
+    
+}
+
+.contactSectionTop ul {
+    margin-left: 3em;
+}
+
+.contactSectionTop ul li span {
+    font-size: 13px;
+}
+
+.contactSectionMiddle {
+    
+    margin-bottom: 3em;
+    margin-left: 2em;
+    
+}
+
+.contactSectionMiddle ul li {
+    font-size: 13px;
+}
+
+.contactSectionEnd{
+    padding: 30px 0;
+    background: white;
+    
+    
+}
+
+/* CAMPUSSEN ----------------------------------------*/
+
+.campusSection{
+    margin: 30px;
+    
+}
+
+
+.campusSection img {
+    float: left;
+    margin-bottom: 40px;
+    display: block;
+    margin-right: 45px;
+
+}
+
+
+.campusSection button{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 1em;
+    background: rgb(162,40,34);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+.campusSection p{
+    text-align: justify;
+}
+
+/* FAQ ----------------------------------------------*/ 
+
+.faqSection{
+    margin: 30px;
+}
+
+
+
+.faqSection h1{
+    
+    font-size: 1.6rem;
+    font-weight: bold;
+    
+    margin-bottom: 0rem;
+    
+}
+
+.faqSection h2{
+    
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 1em;
+}
+
+.faqSection li{
+    line-height: 1em;
+}
+
+.faqSection li::before {
+    content:"\2022"; 
+    color: gray;
+    display: inline-block;
+    margin-left: 3em;
+    
+}
+
+.faqSection li span {
+    color: rgb(162,40,34);
+    font-size: 13px;
+    
+    
+}
+
+
+#faqSectionEnd{
+    margin-bottom: 2em;
+}
+
+
+
+
+
+/* FOOTER -----------------------------------------*/
+
+footer{
+    background: rgb(204, 204, 204);
+    padding: 2em;
+    color: rgb(231, 232, 231);
+
+    
+}

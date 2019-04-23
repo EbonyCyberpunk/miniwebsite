@@ -183,9 +183,18 @@ hr{
     padding-left: 2em;
 }
 
+
+
+.opleidinglijst li::before {
+    content:"\2022"; 
+    color: gray;
+    display: inline-block;
+    margin-left: 2em;
+    
+}
+
 .opleidinglijst li {
-    list-style-type: circle;
-    margin-left: 3em;
+
     font-size: 13px;
 }
 
